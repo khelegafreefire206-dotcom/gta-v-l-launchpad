@@ -40,7 +40,7 @@ const Index = () => {
 
           <div className="grid md:grid-cols-2 gap-6">
             {/* Ways to Study */}
-            <Card className="p-6 bg-card/50 backdrop-blur-sm border-primary/20 hover:border-primary/50 transition-all">
+            <Card className="p-6 bg-card/50 backdrop-blur-sm border-primary/20 hover:border-primary/50 transition-all animate-fade-in delay-100">
               <h2 className="text-2xl font-bold text-primary mb-4 text-glow-orange">1. Ways to Study</h2>
               <div className="space-y-3">
                 <div className="flex items-start gap-3">
@@ -59,7 +59,7 @@ const Index = () => {
             </Card>
 
             {/* Ways to Study Properly */}
-            <Card className="p-6 bg-card/50 backdrop-blur-sm border-secondary/20 hover:border-secondary/50 transition-all">
+            <Card className="p-6 bg-card/50 backdrop-blur-sm border-secondary/20 hover:border-secondary/50 transition-all animate-fade-in delay-200">
               <h2 className="text-2xl font-bold text-secondary mb-4 text-glow-cyan">2. Ways to Study Properly</h2>
               <div className="space-y-3">
                 <div className="flex items-start gap-3">
@@ -74,7 +74,7 @@ const Index = () => {
             </Card>
 
             {/* Productivity Apps */}
-            <Card className="p-6 bg-card/50 backdrop-blur-sm border-primary/20 hover:border-primary/50 transition-all md:col-span-2">
+            <Card className="p-6 bg-card/50 backdrop-blur-sm border-primary/20 hover:border-primary/50 transition-all md:col-span-2 animate-fade-in delay-300">
               <h2 className="text-2xl font-bold text-primary mb-4 text-glow-orange">3. Want to Become Productive?</h2>
               <div className="grid md:grid-cols-2 gap-4">
                 <div className="space-y-3">
@@ -104,8 +104,8 @@ const Index = () => {
           </div>
 
           {/* Motivational Message */}
-          <div className="text-center pt-8 animate-glow-pulse">
-            <Card className="p-8 bg-gradient-to-r from-primary/10 to-secondary/10 border-primary/30">
+          <div className="text-center pt-8">
+            <Card className="p-8 bg-gradient-to-r from-primary/10 to-secondary/10 border-primary/30 animate-fade-in delay-500">
               <p className="text-2xl md:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
                 Come on man be productive
               </p>
