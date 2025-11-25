@@ -1,8 +1,9 @@
 import { Button } from "@/components/ui/button";
+import { toast } from "sonner";
 
 const Index = () => {
   const handleDownload = () => {
-    window.open("https://youtube.com/shorts/iiS_DhSBtRE?si=yBiVWTpUZmz4uKUr", "_blank");
+    toast("padle bhai itna dimag padhai mein chalata toh kuch ban jata");
   };
 
   return (
@@ -21,7 +22,7 @@ const Index = () => {
         <div className="space-y-6 animate-float">
           <h1 className="text-7xl md:text-9xl font-black tracking-tighter">
             <span className="inline-block text-glow-orange text-transparent bg-clip-text bg-gradient-to-r from-primary via-primary to-orange-400">
-              GTA VL
+              GTA V
             </span>
           </h1>
           <p className="text-2xl md:text-4xl font-bold text-secondary text-glow-cyan">
